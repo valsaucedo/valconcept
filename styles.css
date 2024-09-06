@@ -1,0 +1,46 @@
+body{
+    background: rgb(122, 240, 240);
+}
+#titulo{
+    background: blue;
+    text-align: center;
+}
+
+.articulo{
+    background: lightblue;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.articulo h2{
+    text-align: center;
+}
+.articulo:hover{
+    background: rgb(187, 248, 255);
+    box-shadow: 5px 5px 5px;
+}
+
+.container{
+    display: flex;
+}
+
+.text{
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    margin-left: 30%;
+}

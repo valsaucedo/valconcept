@@ -1,30 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background: rgb(122, 240, 240);
+    font-family: 'Roboto', sans-serif;
+    background: rgb(236, 244, 186);
 }
 #titulo{
     background: blue;
     text-align: center;
 }
 
-.articulo{
-    background: lightblue;
-    padding: 5px;
-    margin: 5px;
-    
-}
-.articulo h2{
-    text-align: center;
-}
-.articulo:hover{
-    background: rgb(187, 248, 255);
-    box-shadow: 5px 5px 5px;
-}
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+ul{ list-style: none;}
 
-.container{
-    display: flex;
-}
-
-.text{
+text{
     font-size: 5em;
     letter-spacing: 10px;
     font-family: monospace;
